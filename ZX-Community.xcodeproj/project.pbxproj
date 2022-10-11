@@ -19,6 +19,9 @@
 		8A456C5928F53DD1006CD67F /* ZX_CommunityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A456C5828F53DD1006CD67F /* ZX_CommunityTests.swift */; };
 		8A456C6328F53DD1006CD67F /* ZX_CommunityUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A456C6228F53DD1006CD67F /* ZX_CommunityUITests.swift */; };
 		8A456C6528F53DD1006CD67F /* ZX_CommunityUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A456C6428F53DD1006CD67F /* ZX_CommunityUITestsLaunchTests.swift */; };
+		8A456C7228F5456F006CD67F /* Leah.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A456C7128F5456F006CD67F /* Leah.storyboard */; };
+		8A456C7428F54577006CD67F /* Eric.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A456C7328F54577006CD67F /* Eric.storyboard */; };
+		8A456C7628F5457E006CD67F /* Jun.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A456C7528F5457E006CD67F /* Jun.storyboard */; };
 		FFAB6701F34E7A3915382446 /* Pods_ZX_Community_ZX_CommunityUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CCDA4F894055AB938A38C91 /* Pods_ZX_Community_ZX_CommunityUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -58,6 +61,9 @@
 		8A456C5E28F53DD1006CD67F /* ZX-CommunityUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ZX-CommunityUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A456C6228F53DD1006CD67F /* ZX_CommunityUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZX_CommunityUITests.swift; sourceTree = "<group>"; };
 		8A456C6428F53DD1006CD67F /* ZX_CommunityUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZX_CommunityUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8A456C7128F5456F006CD67F /* Leah.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Leah.storyboard; sourceTree = "<group>"; };
+		8A456C7328F54577006CD67F /* Eric.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Eric.storyboard; sourceTree = "<group>"; };
+		8A456C7528F5457E006CD67F /* Jun.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Jun.storyboard; sourceTree = "<group>"; };
 		9B15F59A69CA0F14BD91B773 /* Pods_ZX_CommunityTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZX_CommunityTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3568DA93DE667BBA56C4303 /* Pods_ZX_Community.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZX_Community.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD1726CCB58564B75C422F5D /* Pods-ZX-CommunityTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZX-CommunityTests.debug.xcconfig"; path = "Target Support Files/Pods-ZX-CommunityTests/Pods-ZX-CommunityTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -103,7 +109,6 @@
 				BD1726CCB58564B75C422F5D /* Pods-ZX-CommunityTests.debug.xcconfig */,
 				87EFD74489EB48AF8CE16F0B /* Pods-ZX-CommunityTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -136,6 +141,9 @@
 				8A456C4028F53DD0006CD67F /* SceneDelegate.swift */,
 				8A456C4228F53DD0006CD67F /* ViewController.swift */,
 				8A456C4428F53DD0006CD67F /* Main.storyboard */,
+				8A456C7528F5457E006CD67F /* Jun.storyboard */,
+				8A456C7328F54577006CD67F /* Eric.storyboard */,
+				8A456C7128F5456F006CD67F /* Leah.storyboard */,
 				8A456C4A28F53DD1006CD67F /* Assets.xcassets */,
 				8A456C4C28F53DD1006CD67F /* LaunchScreen.storyboard */,
 				8A456C4F28F53DD1006CD67F /* Info.plist */,
@@ -280,8 +288,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A456C7228F5456F006CD67F /* Leah.storyboard in Resources */,
 				8A456C4E28F53DD1006CD67F /* LaunchScreen.storyboard in Resources */,
 				8A456C4B28F53DD1006CD67F /* Assets.xcassets in Resources */,
+				8A456C7428F54577006CD67F /* Eric.storyboard in Resources */,
+				8A456C7628F5457E006CD67F /* Jun.storyboard in Resources */,
 				8A456C4628F53DD0006CD67F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
