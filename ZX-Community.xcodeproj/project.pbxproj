@@ -22,6 +22,7 @@
 		8A456C7228F5456F006CD67F /* Leah.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A456C7128F5456F006CD67F /* Leah.storyboard */; };
 		8A456C7428F54577006CD67F /* Eric.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A456C7328F54577006CD67F /* Eric.storyboard */; };
 		8A456C7628F5457E006CD67F /* Jun.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A456C7528F5457E006CD67F /* Jun.storyboard */; };
+		8A456C7D28F549BA006CD67F /* CommunityMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A456C7C28F549BA006CD67F /* CommunityMainViewController.swift */; };
 		FFAB6701F34E7A3915382446 /* Pods_ZX_Community_ZX_CommunityUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CCDA4F894055AB938A38C91 /* Pods_ZX_Community_ZX_CommunityUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -64,6 +65,7 @@
 		8A456C7128F5456F006CD67F /* Leah.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Leah.storyboard; sourceTree = "<group>"; };
 		8A456C7328F54577006CD67F /* Eric.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Eric.storyboard; sourceTree = "<group>"; };
 		8A456C7528F5457E006CD67F /* Jun.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Jun.storyboard; sourceTree = "<group>"; };
+		8A456C7C28F549BA006CD67F /* CommunityMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityMainViewController.swift; sourceTree = "<group>"; };
 		9B15F59A69CA0F14BD91B773 /* Pods_ZX_CommunityTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZX_CommunityTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3568DA93DE667BBA56C4303 /* Pods_ZX_Community.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZX_Community.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD1726CCB58564B75C422F5D /* Pods-ZX-CommunityTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZX-CommunityTests.debug.xcconfig"; path = "Target Support Files/Pods-ZX-CommunityTests/Pods-ZX-CommunityTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -137,6 +139,7 @@
 		8A456C3D28F53DD0006CD67F /* ZX-Community */ = {
 			isa = PBXGroup;
 			children = (
+				8A456C7B28F548B7006CD67F /* Domain */,
 				8A456C3E28F53DD0006CD67F /* AppDelegate.swift */,
 				8A456C4028F53DD0006CD67F /* SceneDelegate.swift */,
 				8A456C4228F53DD0006CD67F /* ViewController.swift */,
@@ -167,6 +170,46 @@
 				8A456C6428F53DD1006CD67F /* ZX_CommunityUITestsLaunchTests.swift */,
 			);
 			path = "ZX-CommunityUITests";
+			sourceTree = "<group>";
+		};
+		8A456C7728F547DC006CD67F /* Community */ = {
+			isa = PBXGroup;
+			children = (
+				8A456C7C28F549BA006CD67F /* CommunityMainViewController.swift */,
+			);
+			path = Community;
+			sourceTree = "<group>";
+		};
+		8A456C7828F54814006CD67F /* Login & Register */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Login & Register";
+			sourceTree = "<group>";
+		};
+		8A456C7928F5483A006CD67F /* Vote */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vote;
+			sourceTree = "<group>";
+		};
+		8A456C7A28F54856006CD67F /* Detail Posts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Detail Posts";
+			sourceTree = "<group>";
+		};
+		8A456C7B28F548B7006CD67F /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				8A456C7828F54814006CD67F /* Login & Register */,
+				8A456C7928F5483A006CD67F /* Vote */,
+				8A456C7728F547DC006CD67F /* Community */,
+				8A456C7A28F54856006CD67F /* Detail Posts */,
+			);
+			path = Domain;
 			sourceTree = "<group>";
 		};
 		D9FDFB68411B4F122DFAE270 /* Frameworks */ = {
@@ -424,6 +467,7 @@
 				8A456C4328F53DD0006CD67F /* ViewController.swift in Sources */,
 				8A456C3F28F53DD0006CD67F /* AppDelegate.swift in Sources */,
 				8A456C4128F53DD0006CD67F /* SceneDelegate.swift in Sources */,
+				8A456C7D28F549BA006CD67F /* CommunityMainViewController.swift in Sources */,
 				8A456C4928F53DD0006CD67F /* ZX_Community.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
