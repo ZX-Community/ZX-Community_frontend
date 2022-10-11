@@ -1,0 +1,6 @@
+framework module Pods_ZX_Community {
+  umbrella header "Pods-ZX-Community-umbrella.h"
+
+  export *
+  module * { export * }
+}
