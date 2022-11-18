@@ -26,6 +26,8 @@
 		8AC40297292798A30004A250 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC40296292798A30004A250 /* LoginViewController.swift */; };
 		8AC40299292798B40004A250 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC40298292798B40004A250 /* HomeViewController.swift */; };
 		BEB1799029279F2F009CC4EB /* MyPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB1798F29279F2F009CC4EB /* MyPageViewController.swift */; };
+		BEB179922927A74C009CC4EB /* YellowBattleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB179912927A74C009CC4EB /* YellowBattleViewController.swift */; };
+		BEB179942927A758009CC4EB /* LatteBattleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB179932927A758009CC4EB /* LatteBattleViewController.swift */; };
 		FFAB6701F34E7A3915382446 /* Pods_ZX_Community_ZX_CommunityUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CCDA4F894055AB938A38C91 /* Pods_ZX_Community_ZX_CommunityUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -75,6 +77,8 @@
 		B3568DA93DE667BBA56C4303 /* Pods_ZX_Community.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZX_Community.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD1726CCB58564B75C422F5D /* Pods-ZX-CommunityTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZX-CommunityTests.debug.xcconfig"; path = "Target Support Files/Pods-ZX-CommunityTests/Pods-ZX-CommunityTests.debug.xcconfig"; sourceTree = "<group>"; };
 		BEB1798F29279F2F009CC4EB /* MyPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPageViewController.swift; sourceTree = "<group>"; };
+		BEB179912927A74C009CC4EB /* YellowBattleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YellowBattleViewController.swift; sourceTree = "<group>"; };
+		BEB179932927A758009CC4EB /* LatteBattleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LatteBattleViewController.swift; sourceTree = "<group>"; };
 		D60EB6B295B3ACC40B27573B /* Pods-ZX-Community-ZX-CommunityUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZX-Community-ZX-CommunityUITests.debug.xcconfig"; path = "Target Support Files/Pods-ZX-Community-ZX-CommunityUITests/Pods-ZX-Community-ZX-CommunityUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		E1949B059E93008835C55E50 /* Pods-ZX-Community.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZX-Community.release.xcconfig"; path = "Target Support Files/Pods-ZX-Community/Pods-ZX-Community.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -198,6 +202,8 @@
 			isa = PBXGroup;
 			children = (
 				8AC40298292798B40004A250 /* HomeViewController.swift */,
+				BEB179912927A74C009CC4EB /* YellowBattleViewController.swift */,
+				BEB179932927A758009CC4EB /* LatteBattleViewController.swift */,
 			);
 			path = Vote;
 			sourceTree = "<group>";
@@ -476,11 +482,13 @@
 				8AC40297292798A30004A250 /* LoginViewController.swift in Sources */,
 				8A456C4328F53DD0006CD67F /* ViewController.swift in Sources */,
 				8A456C3F28F53DD0006CD67F /* AppDelegate.swift in Sources */,
+				BEB179922927A74C009CC4EB /* YellowBattleViewController.swift in Sources */,
 				8A456C4128F53DD0006CD67F /* SceneDelegate.swift in Sources */,
 				8A456C7D28F549BA006CD67F /* CommunityMainViewController.swift in Sources */,
 				8AC40299292798B40004A250 /* HomeViewController.swift in Sources */,
 				8A456C4928F53DD0006CD67F /* ZX_Community.xcdatamodeld in Sources */,
 				BEB1799029279F2F009CC4EB /* MyPageViewController.swift in Sources */,
+				BEB179942927A758009CC4EB /* LatteBattleViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
