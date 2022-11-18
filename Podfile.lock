@@ -1,18 +1,21 @@
 PODS:
   - Alamofire (5.6.2)
-  - KakaoSDKAuth (2.11.2):
-    - KakaoSDKCommon (= 2.11.2)
-  - KakaoSDKCommon (2.11.2):
-    - KakaoSDKCommon/Common (= 2.11.2)
-    - KakaoSDKCommon/Network (= 2.11.2)
-  - KakaoSDKCommon/Common (2.11.2)
-  - KakaoSDKCommon/Network (2.11.2):
+  - KakaoSDKAuth (2.11.3):
+    - KakaoSDKCommon (= 2.11.3)
+  - KakaoSDKCommon (2.11.3):
+    - KakaoSDKCommon/Common (= 2.11.3)
+    - KakaoSDKCommon/Network (= 2.11.3)
+  - KakaoSDKCommon/Common (2.11.3)
+  - KakaoSDKCommon/Network (2.11.3):
     - Alamofire (~> 5.1)
-    - KakaoSDKCommon/Common (= 2.11.2)
-  - KakaoSDKUser (2.11.2):
-    - KakaoSDKAuth (= 2.11.2)
+    - KakaoSDKCommon/Common (= 2.11.3)
+  - KakaoSDKUser (2.11.3):
+    - KakaoSDKAuth (= 2.11.3)
+  - Pageboy (4.0.2)
   - SnapKit (5.6.0)
   - SwiftyJSON (5.0.1)
+  - Tabman (3.0.1):
+    - Pageboy (~> 4.0.2)
   - Then (3.0.0)
 
 DEPENDENCIES:
@@ -22,6 +25,7 @@ DEPENDENCIES:
   - KakaoSDKUser
   - SnapKit (~> 5.6.0)
   - SwiftyJSON
+  - Tabman (~> 3.0)
   - Then
 
 SPEC REPOS:
@@ -30,19 +34,23 @@ SPEC REPOS:
     - KakaoSDKAuth
     - KakaoSDKCommon
     - KakaoSDKUser
+    - Pageboy
     - SnapKit
     - SwiftyJSON
+    - Tabman
     - Then
 
 SPEC CHECKSUMS:
   Alamofire: d368e1ff8a298e6dde360e35a3e68e6c610e7204
-  KakaoSDKAuth: 98f90fb67b2c2015cc94066a4489d54bb2f2a68e
-  KakaoSDKCommon: 83fef177bcad9a8f9cb728f92e04a464882d3a82
-  KakaoSDKUser: bf7b02e23257199995cdd03d59feb716416d14d6
+  KakaoSDKAuth: a64dde90516e18fdfc35b83bbad2677c3675c329
+  KakaoSDKCommon: b4235203f67a5b6ee2df75eaf9bbc863c6d92e09
+  KakaoSDKUser: 9a42e9b74855ce876b071c841418aa6726534010
+  Pageboy: 34ff11e8d1041b81769d5bcde9b19a0cb7218bd9
   SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
   SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
+  Tabman: a5880789298f81d3f2cdd6510b54ae637cfd8e09
   Then: 844265ae87834bbe1147d91d5d41a404da2ec27d
 
-PODFILE CHECKSUM: e22cfd3e0845e6661608d60950b017b91101592b
+PODFILE CHECKSUM: 67ea559dd1696d2892cbe5c67148a7a4d4683010
 
 COCOAPODS: 1.11.3
