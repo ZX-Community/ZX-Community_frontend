@@ -23,6 +23,8 @@
 		8A456C7428F54577006CD67F /* Eric.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A456C7328F54577006CD67F /* Eric.storyboard */; };
 		8A456C7628F5457E006CD67F /* Jun.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A456C7528F5457E006CD67F /* Jun.storyboard */; };
 		8A456C7D28F549BA006CD67F /* CommunityMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A456C7C28F549BA006CD67F /* CommunityMainViewController.swift */; };
+		8AC40297292798A30004A250 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC40296292798A30004A250 /* LoginViewController.swift */; };
+		8AC40299292798B40004A250 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC40298292798B40004A250 /* HomeViewController.swift */; };
 		FFAB6701F34E7A3915382446 /* Pods_ZX_Community_ZX_CommunityUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CCDA4F894055AB938A38C91 /* Pods_ZX_Community_ZX_CommunityUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -66,6 +68,8 @@
 		8A456C7328F54577006CD67F /* Eric.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Eric.storyboard; sourceTree = "<group>"; };
 		8A456C7528F5457E006CD67F /* Jun.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Jun.storyboard; sourceTree = "<group>"; };
 		8A456C7C28F549BA006CD67F /* CommunityMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityMainViewController.swift; sourceTree = "<group>"; };
+		8AC40296292798A30004A250 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		8AC40298292798B40004A250 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		9B15F59A69CA0F14BD91B773 /* Pods_ZX_CommunityTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZX_CommunityTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3568DA93DE667BBA56C4303 /* Pods_ZX_Community.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZX_Community.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD1726CCB58564B75C422F5D /* Pods-ZX-CommunityTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZX-CommunityTests.debug.xcconfig"; path = "Target Support Files/Pods-ZX-CommunityTests/Pods-ZX-CommunityTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -183,6 +187,7 @@
 		8A456C7828F54814006CD67F /* Login & Register */ = {
 			isa = PBXGroup;
 			children = (
+				8AC40296292798A30004A250 /* LoginViewController.swift */,
 			);
 			path = "Login & Register";
 			sourceTree = "<group>";
@@ -190,6 +195,7 @@
 		8A456C7928F5483A006CD67F /* Vote */ = {
 			isa = PBXGroup;
 			children = (
+				8AC40298292798B40004A250 /* HomeViewController.swift */,
 			);
 			path = Vote;
 			sourceTree = "<group>";
@@ -464,10 +470,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8AC40297292798A30004A250 /* LoginViewController.swift in Sources */,
 				8A456C4328F53DD0006CD67F /* ViewController.swift in Sources */,
 				8A456C3F28F53DD0006CD67F /* AppDelegate.swift in Sources */,
 				8A456C4128F53DD0006CD67F /* SceneDelegate.swift in Sources */,
 				8A456C7D28F549BA006CD67F /* CommunityMainViewController.swift in Sources */,
+				8AC40299292798B40004A250 /* HomeViewController.swift in Sources */,
 				8A456C4928F53DD0006CD67F /* ZX_Community.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
